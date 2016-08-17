@@ -71,6 +71,8 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'PythonCMS.wsgi.application'
 
+AUTH_USER_MODEL = "focus.NewUser"
+
 
 # Database
 # https://docs.djangoproject.com/en/1.9/ref/settings/#databases
